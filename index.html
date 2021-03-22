@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Watts - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<script>
+    function openMenu() {
+        var ele = document.getElementById("myResponsiveNav");
+        if (ele.className === "navbar-vertical") {
+            ele.className += " responsive";
+        } else {
+            ele.className = "navbar-vertical"
+        } 
+    }
+
+
+</script>
+<body>
+    <nav class="navbar-vertical" id="myResponsiveNav">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#footer">Contact</a>
+        <a href="javascript:void(0);" class="menu-icon" onclick="openMenu()"><i class="fas fa-bars"></i></a>
+    </nav>
+    <section id="home" class="fullscreen"> <!--Landing Section-->
+        <div class="flex-container-landing">
+            <h1>Hello, I'm Aaron</h1>
+            <h1>Wannabe Web Developer</h1>
+            <a href="#about"><button class="button">Learn More </button></a>
+        </div>
+    </section>
+    
+    <section id="about" class="fullscreen fullscreen-background-grey"> <!--About Section-->
+        
+        <div class="flex-container red">
+            <h1 class="profile-h1">Profile</h1>
+            <div class="flex-container2">    
+                <div class="profile-item left"> <!--details-->
+                    <h2>Details</h2>
+                    <h3>Name</h3>
+                    <p>Aaron Watts</p>
+                    <h3>Age</h3>
+                    <p>32</p>
+                    <h3>Location</h3>
+                    <p>Marksteft, Unterfranken</p>
+                </div> 
+                <div class="profile-item-flex" >  <!--picture-->
+                    <img class="selfie" src="./images/aaron.jpg" alt="aaron in the countryside">
+                </div>
+                <div class="profile-item"> <!--About Me-->
+                    <h2>About Me</h2>
+                    <p>I am an apsiring web developer from Liverpool, England. I am already familiar with HTML, CSS and basic javascript. I am hoping to start a 12 month intensive course at the DCI where I will be able to study the MERN stack. In the future, I hope to work as a back end developer, but I am ofcourse open to any offers. </p>
+                </div> 
+            </div>        
+        </div>
+    </section>
+    <section id="skills" class="fullscreen fullscreen-background-light"> <!--Skills Section-->
+        <div class="flex-container red">
+            <div class="flex-container">
+                <h1>Skills</h1>
+                <div class="flex-container2"> 
+                    <div class="abilities"> <!-- Skills Left-->
+                        <ul>
+                            <li>
+                                <span class="ability-name">HTML(5)</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">CSS(3)</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">Bootstrap</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">Javascript</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">React</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">MongoDB</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="abilities"> <!--Skills right-->
+                        <ul>
+                            <li>
+                                <span class="ability-name">Express</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">Node</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">Scrum</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">SEO</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">English</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ability-name">German</span>
+                                <span class="ability-score"> 
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <div class="flex-container">
+            <h2>Employment History</h2>
+            <div class="flex-container-employment">
+                <div class="flex-container-employment-date"> <!-- date and flex box left side--> 
+                    <h3>April 2017 to October 2020</h3>
+                    <div> <!--container for right side-->
+                        <div class="flex-container-role"> <!--container for employer and role-->
+                            <span>BDM</span> 
+                            <span>Sixt</span>
+                        </div>
+                        <p>Reach quarterly sales targets dealing with UK based SME.</p>
+                    </div>
+                </div>
+                <div class="flex-container-employment-date"> <!-- date and flex box left side--> 
+                    <h3> September 2015 to March 2017</h3>
+                    <div> <!--container for right side-->
+                        <div class="flex-container-role"> <!--container for employer and role-->
+                            <span>Tech Support</span> 
+                            <span>British Telecom</span>
+                        </div>
+                        <p>Provide 3rd level tech support for broadband, telephone and mobile customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+            
+    
+    
+    
+    </section>
+    <section id="footer" class="fullscreen fullscreen-footer"> 
+        <div class="container-footer">
+            <h2>Contact</h2>
+            <div class="container-footer-items">
+                <div class="footer-flex-item">
+                   <a href="">
+                       <span>
+                        <i class="fab fa-github-square"></i>
+                       </span>
+                       <span>Git Hub</span>
+                   </a>
+                </div>
+                <div class="footer-flex-item">
+                    <a href="">
+                        <span>
+                            <i class="fab fa-linkedin"></i>
+                        </span>
+                        <span>Linkedin</span>
+                    </a>
+                </div>
+                <div class="footer-flex-item">
+                    <a href="">
+                        <span>
+                            <i class="fas fa-envelope-square"></i>
+                        </span>
+                        <span>aaronwatts@notarealemail.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
